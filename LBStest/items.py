@@ -8,6 +8,6 @@
 import scrapy
 
 
-class TitleItem(scrapy.Item):
-    title = scrapy.Field()
-    date = scrapy.Field()
+class CompanyDataItem(scrapy.Item):
+    email = scrapy.Field()
+    
